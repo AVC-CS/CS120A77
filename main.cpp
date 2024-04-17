@@ -1,5 +1,4 @@
 #include "main.hpp"
-const int SIZE = 10;
 int main()
 {
 	int result[SIZE] = {0};
