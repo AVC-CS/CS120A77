@@ -6,8 +6,6 @@
 // tests for exercise 1
 TEST_CASE("Ex1 findmaxsum()", "[example]")
 {
-	const int NUM_ROWS = 6; // Number of rows
-	const int NUM_COLS = 5; // Number of columns
 	int result[SIZE] = {0};
 	int numbers[NUM_ROWS][NUM_COLS] = {{2, 7, 9, 6, 4},
 					   {6, 1, 8, 10, 4},
@@ -30,8 +28,7 @@ TEST_CASE("Ex1 findmaxsum()", "[example]")
 // tests for exercise 2
 TEST_CASE("Ex2 findMaxElm()", "[example]")
 {
-	const int NUM_ROWS = 6; // Number of rows
-	const int NUM_COLS = 5; // Number of columns
+	
 	int result[SIZE] = {0};
 	int numbers[NUM_ROWS][NUM_COLS] = {{2, 7, 9, 6, 4},
 					   {6, 1, 8, 10, 4},
@@ -54,8 +51,6 @@ TEST_CASE("Ex2 findMaxElm()", "[example]")
 }
 TEST_CASE("Ex3 findMaxVal()", "[example]")
 {
-	const int NUM_ROWS = 6; // Number of rows
-	const int NUM_COLS = 5; // Number of columns
 	int result[SIZE] = {0};
 	int numbers[NUM_ROWS][NUM_COLS] = {{2, 7, 9, 6, 4},
 					   {6, 1, 8, 10, 4},
